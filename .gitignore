@@ -68,3 +68,11 @@ build/
 # Local PDF build script (depends on Playwright + Pillow, not on the
 # server's stdlib-only requirements). The PDFs it produces are committed.
 docs/_build_pdf.py
+
+# Internal reference materials, not for the public repo. Manual_Extensions_ng
+# is the Atelier B vendor manual (redistribution unclear); plugin_design_notes
+# is internal scratch authored during the bootstrap. Both are kept locally
+# but excluded from GitHub.
+docs/Manual_Extensions_ng.docx
+docs/Manual_Extensions_ng.md
+docs/plugin_design_notes.md
